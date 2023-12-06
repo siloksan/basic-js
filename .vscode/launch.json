@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "count-cats",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\count-cats.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "carbon-dating",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\carbon-dating.js"
+    },
+    // {
+    //   "type": "node",
+    //   "request": "launch",
+    //   "name": "stack",
+    //   "skipFiles": ["<node_internals>/**"],
+    //   "program": "${workspaceFolder}\\src\\stack.js"
+    // }
+  ]
+}
