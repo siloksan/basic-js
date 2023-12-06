@@ -18,6 +18,13 @@
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\carbon-dating.js"
     },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "what-season",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\what-season.js"
+    }
     // {
     //   "type": "node",
     //   "request": "launch",
