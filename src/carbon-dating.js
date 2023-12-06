@@ -38,5 +38,3 @@ function dateSample(sampleActivity) {
 module.exports = {
   dateSample,
 };
-
-console.log("dateSampleggdgd)", dateSample("9000"));
