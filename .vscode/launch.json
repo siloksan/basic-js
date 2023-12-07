@@ -24,13 +24,13 @@
       "name": "what-season",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\what-season.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "transform-array",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\transform-array.js"
     }
-    // {
-    //   "type": "node",
-    //   "request": "launch",
-    //   "name": "stack",
-    //   "skipFiles": ["<node_internals>/**"],
-    //   "program": "${workspaceFolder}\\src\\stack.js"
-    // }
   ]
 }
