@@ -31,6 +31,13 @@
       "name": "transform-array",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\transform-array.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "simple-chain",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\simple-chain.js"
     }
   ]
 }
