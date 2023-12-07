@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "recursive-depth",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\recursive-depth.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "count-cats",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\count-cats.js"
