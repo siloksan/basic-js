@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "extended-repeater",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\extended-repeater.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "recursive-depth",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\recursive-depth.js"
