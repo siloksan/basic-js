@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "common-character-count",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\common-character-count.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "extended-repeater",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\extended-repeater.js"
