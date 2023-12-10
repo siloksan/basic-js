@@ -7,6 +7,20 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "encode-line",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\encode-line.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "dns-stats",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\dns-stats.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "common-character-count",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\common-character-count.js"
