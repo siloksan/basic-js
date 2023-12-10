@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "matrix-elements-sum",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\matrix-elements-sum"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "encode-line",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\encode-line.js"

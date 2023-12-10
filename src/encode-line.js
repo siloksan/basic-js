@@ -27,5 +27,3 @@ function encodeLine(str) {
 module.exports = {
   encodeLine,
 };
-
-console.log("encodeLine('aaaatttt'): ", encodeLine("aaaatttt"));
