@@ -7,6 +7,20 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "sum-digits",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\sum-digits"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "mine-sweeper",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\src\\mine-sweeper"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "matrix-elements-sum",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}\\src\\matrix-elements-sum"
